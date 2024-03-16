@@ -23,6 +23,7 @@ h1 {
   position: absolute;
   z-index: 1000;
   transition: cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
+  transform: translateX(-100%);
 }
 ul {
   display: flex;
@@ -64,7 +65,7 @@ li:hover{
   width: 60px;
   height: 60px;
   cursor: pointer;
-  top: 30px;
+  top: 15px;
 }
 .icone span {
   display: block;
@@ -96,7 +97,8 @@ li:hover{
 
 
 #side-barre.active{
-  transform: translate(-100%);
+  transform:translate(0px);
+ 
 }
 
 
